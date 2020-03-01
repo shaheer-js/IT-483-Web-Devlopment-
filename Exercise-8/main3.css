@@ -1,0 +1,178 @@
+body {
+    background-repeat: repeat;
+    background-image: url(bats.gif);
+    height: auto;
+    margin: 0;
+}
+
+#container{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 90%;
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid black;
+    background-color: white;
+    box-shadow: 0px 10px 15px 12px black;
+}
+
+#header {
+    margin-top: auto;
+    padding-top: 0.01em;
+    margin-bottom: 0;
+    border-bottom: 1px solid black;
+    background-image: linear-gradient(45deg, white 0%, orange 50%, black 100%)
+}
+
+#header img{
+    float: left;
+    padding: 10px;
+    line-height: 0.5em;
+}
+
+#cat {
+    float: left;
+    width: 100%;
+}
+
+#nav a {
+    font-weight:bolder;
+    text-decoration: none;
+}
+
+#content{
+   background-color: white;
+}
+
+#nav ul li a{
+    display: block;
+    border: 2px solid black;
+    width: 120px;
+    margin-bottom: 5px;
+    background-color: orange;
+    height: 25px;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    padding-top: 10px;
+}
+
+#nav{
+    display: block;
+    width: 160px;
+    color: black;
+    float: left;
+    height: 100%;
+    margin-left: -980px;
+    margin-right: 20px;
+}
+
+#nav ul li a:hover{
+    color:orange;
+    background-color: black;
+}
+
+#navbar{
+    background-color: black;
+    float: center;
+    width: 100%;
+    height: 43px;
+    padding: 0;
+    margin: 0;
+}
+
+#navbar ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+#navbar ul li{
+    float: left;
+    width: 160px;
+    height: 40px;
+    color: grey;
+    line-height: 40px;
+    text-align: center;
+    font-size: 15px;
+    padding: 1px;
+}
+
+#navbar ul li a{
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+
+#navbar ul li a.active{
+    color: orange;
+}
+
+#navbar ul li a:hover{
+    background-color: dimgrey;
+}
+
+#navbar ul li ul li{
+    display: none;
+    position: relative;
+    background-color: black;
+    z-index: 1;
+}
+
+#navbar ul li:hover ul li{
+    display: block;
+}
+
+#main{
+    max-width: 800px;
+    float: right;
+    position: relative;
+    z-index: 0;
+}
+
+#main li{
+    list-style-type: none;
+}
+
+#form{
+    margin: 20px auto;
+    width: 320px;
+}
+
+#form input{
+    padding: 8px 45px;
+    font-size: inherit;
+    margin: 5px 3px 3px 2px;
+}
+
+#form input[type="submit"]{
+    border: 2px double black;
+    padding: 8px 45px;
+    list-style-type: none;
+    background-color: orange;
+    margin-top: 5px;
+    width:150px; 
+}
+
+#footer{
+    clear: both;
+    text-align: center;
+    margin-top: .5em;
+    border-top: 4px solid black;
+    padding-top: .5em;
+    padding-bottom: .5em;
+    background-image: linear-gradient(-45deg, white 0%, orange 50%, black 100%)
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
