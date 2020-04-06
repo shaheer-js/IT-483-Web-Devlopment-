@@ -1,0 +1,84 @@
+body{
+    margin: 0;
+    background: #dedbd0;
+    float: center;
+    margin-left: 225px;
+}
+
+.main{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 16px;
+    transition: margin-left .5s;
+    display: block;
+}
+
+header h1 {
+    color: blue;
+    margin-left: 250px;
+}
+
+header h2{
+    font-family: cursive;
+    margin-left: 480px;
+}
+
+.sidebar{
+    position: fixed;
+    width: 200px;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background: #111;
+    padding-top: 50px;
+    float: left;
+}
+
+.sidebar h1{
+    display: block;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+    font-family: "Rubik";
+    letter-spacing: 2px;
+    font-weight: 400;
+    margin: 0;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+.sidebar a{
+    display: block;
+    padding: 10px 20px;
+    color: #bbb;
+    text-decoration: none;
+    font-family: "Rubik";
+    letter-spacing: 2px;
+}
+
+.sidebar a:hover{
+    color: #fff;
+    margin-left: 20px;
+    transition: 0.4s;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+table th{
+    text-align: left;
+    background-color: dimgrey;
+    color: azure;
+    padding: 4px 30px 4px 8px;
+}
+
+table td{
+    border: 1px solid #e3e3e3;
+    padding: 4px 8px;    
+}
+
+table tr:nth-child(odd) td{
+    background-color: cadetblue;
+}
+
+
