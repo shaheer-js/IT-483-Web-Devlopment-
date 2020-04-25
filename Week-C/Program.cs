@@ -1,14 +1,14 @@
 ﻿using System;
 
-namespace Week_C
+namespace Week_C_2
 {
     class Program
     {
         static void Main(string[] args)
         {
-
-            Lab01 lab = new Lab01();
+            Lab02 lab = new Lab02();
         }
     }
 }
+
 
